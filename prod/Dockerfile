@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-RUN apk update && apk upgrade && apk add --no-cache beanstalkd
+RUN apk update && apk add --no-cache beanstalkd
 
 EXPOSE 11300
 
