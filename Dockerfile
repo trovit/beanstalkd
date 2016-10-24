@@ -3,7 +3,6 @@ FROM alpine:edge
 RUN apk add --no-cache beanstalkd
 RUN apk update && apk upgrade
 RUN apk add curl
-
 RUN cd /tmp && \
         curl -LS https://github.com/tyba/beanstool/releases/download/v0.2.0/beanstool_v0.2.0_linux_amd64.tar.gz | tar -zxv  && \
         cp beanstool_v0.2.0_linux_amd64/beanstool /usr/local/bin/
