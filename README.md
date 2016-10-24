@@ -1,2 +1,2 @@
 # beanstool
-Beanstalkd imagefor docker with beanstool.
+Beanstalkd image for docker with beanstool.
