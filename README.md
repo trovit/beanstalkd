@@ -1,2 +1,3 @@
-# beanstool
-Beanstalkd image for docker with beanstool.
+# beanstalkd
+Beanstalkd image for docker.
+Dev environment includes beanstool.
